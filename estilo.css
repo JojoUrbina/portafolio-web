@@ -41,7 +41,7 @@
 
         #inicio .contenido header .contenido-header h1 {
             text-align: center;
-            color: #ff5080;
+            color: #33b8d6;
         }
 
         #inicio .contenido header .contenido-header nav ul {
@@ -59,7 +59,7 @@
         }
 
         #inicio .contenido header .contenido-header nav ul li a:hover {
-            color: #ff5080;
+            color: #33b8d6;
         }
 
         #inicio .contenido header .contenido-header .redes a {
@@ -71,11 +71,11 @@
         }
 
         #inicio .contenido header .contenido-header .redes a:hover {
-            color: #ff5080;
+            color: #33b8d6;
         }
 
         #inicio .contenido header .contenido-header .seleccionado {
-            color: #ff5080;
+            color: #33b8d6;
         }
 
         #inicio .contenido .presentacion {
@@ -128,7 +128,7 @@
         }
 
         #inicio .contenido .presentacion a:hover {
-            background-color: #ff5080;
+            background-color: #33b8d6;
         }
 
         #icono-nav {
@@ -181,7 +181,7 @@
         }
 
         #sobremi .sobremi h2 span {
-            color: #ff5080;
+            color: #33b8d6;
         }
 
         #sobremi .sobremi h3 {
@@ -211,7 +211,7 @@
         }
 
         #sobremi .sobremi a:hover {
-            background-color: #ff5080;
+            background-color: #33b8d6;
             color: #fff;
         }
 
@@ -319,7 +319,7 @@
         }
 
         #repositorio:hover {
-            background-color: #ff5080;
+            background-color: #33b8d6;
             color: #fff;
         }
 
@@ -517,7 +517,7 @@
             position: absolute;
             left: 0px;
             background-color: rgba(0, 0, 0, 0.8);
-            color: #ff5080;
+            color: #33b8d6;
             width: 100%;
             padding: 10px;
             opacity: 0;
@@ -579,7 +579,7 @@
             text-transform: uppercase;
             color: #fff;
             text-decoration: underline;
-            text-decoration-color: #fdd2d2;
+            text-decoration-color: #d2f7fd73;
             text-decoration-thickness: 5px;
         }
 
@@ -592,7 +592,7 @@
         }
 
         #contacto .btn-enviar:hover {
-            background-color: #ff5080;
+            background-color: #33b8d6;
             color: #fff;
         }
 
