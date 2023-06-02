@@ -46,6 +46,12 @@ var textos = [
   "Sitios Web Interactivos",
   "Manejo del Dom",
   "Codigo js escalable",
+  "Programación asíncrona",
+  "Desarrollo orientado eventos",
+  "Modularidad y reutilización",
+  "Integración de API",
+  "Optimización del rendimiento"
+
 ];
 var indice = 0;
 
