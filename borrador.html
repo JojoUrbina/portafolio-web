@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo Cambio de Texto</title>
+  <script>
+    // Array con los textos
+    var textos = ["interactivo", "dom", "dinamico"];
+    var indice = 0; // Índice actual del texto en el array
+
+    function cambiarTexto() {
+      // Obtener el div por su id
+      var divTexto = document.getElementById("divTexto");
+
+      // Cambiar el texto del div
+      divTexto.textContent = textos[indice];
+
+      // Actualizar el índice para el siguiente texto
+      indice = (indice + 1) % textos.length;
+    }
+  </script>
+</head>
+<body>
+  <div id="divTexto">Texto Inicial</div>
+  <button onclick="cambiarTexto()">Cambiar Texto</button>
+</body>
+</html>
