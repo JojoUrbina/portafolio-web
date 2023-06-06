@@ -29,20 +29,7 @@ window.onscroll = function () {
   efectoHabilidades();
 };
 
-//funcion que aplica la animación de la barra de habilidades
-function efectoHabilidades() {
-  var skills = document.getElementById("skills");
-  var distancia_skills =
-    window.innerHeight - skills.getBoundingClientRect().top;
-  if (distancia_skills >= 300) {
-    document.getElementById("html").classList.add("barra-progreso1");
-    document.getElementById("js").classList.add("barra-progreso2");
-    document.getElementById("bd").classList.add("barra-progreso3");
-    document.getElementById("ps").classList.add("barra-progreso4");
-  }
-}
-
-var textos = [
+const habilidades = [
   "Sitios Web Interactivos",
   "Manejo del Dom",
   "Codigo js escalable",
@@ -59,8 +46,8 @@ function cambiarTexto() {
   // Obtener el div por su id
   var liTexto = document.getElementById("liTexto");
 
-  liTexto.textContent = textos[indice];
+  liTexto.textContent = habilidades[indice];
 
   // Actualizar el índice para el siguiente texto
-  indice = (indice + 1) % textos.length;
+  indice = (indice + 1) % habilidades.length;
 }
