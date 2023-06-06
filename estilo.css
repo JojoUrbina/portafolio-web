@@ -511,6 +511,7 @@
 
         #portfolio .fila .proyecto:hover img {
             filter: grayscale(0);
+            
         }
 
         #portfolio .fila .proyecto .info {
@@ -529,6 +530,14 @@
             opacity: 1;
             bottom: 0;
         }
+        .texto-movil{
+            text-align: center;
+            animation: mover 3s linear infinite;
+        }
+        @keyframes mover {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-40%); }
+          }
 
         /* *********************/
         /* seccion C O N T A C T O */
@@ -725,3 +734,4 @@
                 margin-bottom: 15px;
             }
         }
+
