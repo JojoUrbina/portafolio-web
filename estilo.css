@@ -514,6 +514,7 @@
 
         #portfolio .fila .proyecto:hover img {
             filter: grayscale(0);
+            cursor: pointer;
 
         }
 
