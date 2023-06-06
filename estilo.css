@@ -281,6 +281,7 @@
             box-shadow: none;
 
         }
+
         #react:hover {
             box-shadow: 5px 5px 10px #61DAFB, -5px -5px 10px #8a8a8a;
         }
@@ -299,9 +300,11 @@
                 transform: rotate(360deg);
             }
         }
+
         #github:hover {
             box-shadow: 5px 5px 10px #181717, -5px -5px 10px #8a8a8a;
         }
+
         #webpack:hover {
             box-shadow: 5px 5px 10px #CB3837, -5px -5px 10px #8DD6F9;
         }
@@ -511,7 +514,7 @@
 
         #portfolio .fila .proyecto:hover img {
             filter: grayscale(0);
-            
+
         }
 
         #portfolio .fila .proyecto .info {
@@ -530,15 +533,19 @@
             opacity: 1;
             bottom: 0;
         }
-        .texto-movil{
+        #portfolio .fila .proyecto:hover .info h4 {
             text-align: center;
             animation: mover 3s linear infinite;
         }
         @keyframes mover {
-            0% { transform: translateX(0%); }
-            100% { transform: translateX(-40%); }
-          }
+            0% {
+                transform: translateX(0%);
+            }
 
+            100% {
+                transform: translateX(-40%);
+            }
+        }
         /* *********************/
         /* seccion C O N T A C T O */
         /* *********************/
@@ -734,4 +741,3 @@
                 margin-bottom: 15px;
             }
         }
-
