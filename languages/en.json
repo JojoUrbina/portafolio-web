@@ -8,17 +8,44 @@
   },
   "presentacion":{
     "bienvenida":"WELCOME",
-    "perfil":"Soy <span>Jorman Urbina</span>, Front-end Developer",
-    "descripcion":"Me gusta crear productos frontend sólidos,interactivos y escalables orientados a dar experiencias interesantes al usuario.",
-    "portafolio":"Ir a Portafolio"
+    "perfil":"I am <span>Jorman Urbina</span>, Front-end Developer",
+    "descripcion":"I like to create solid, interactive and scalable web services oriented to give interesting experiences to the user.",
+    "portafolio":"go to portfolio"
 
   },
-
-
-  "profile": {
+  "sobremi": {
     "rol": "Front-end Developer",
-    "description": "Passionate about the creation and development of web applications, with solid knowledge of html, css, javascript and react to offer fast, resistant and optimized solutions.. <br><br>Dynamism, performance, and scalability are tops on my radar."
+    "saludo":"Hi, I'm <span>Jorman Urbina</span>",
+    "descripcion": "Passionate about the creation and development of web applications, with solid knowledge of html, css, javascript and react to offer fast, resistant and optimized solutions.  <br><br>Dynamism, performance and scalability are high on my radar.",
+    "descargarcv":"Download CV"
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   "habilidades": {
     "html": {
       "description": "Puedo construir una pagina web desde cero, utilizando etiquetas semanticas actualizadas, dar un SEO que optimice la visibilidad del producto."

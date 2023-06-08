@@ -8,15 +8,17 @@
   },
   "presentacion":{
     "bienvenida":"BIENVENIDOS",
-    "perfil":"Soy <span>Jorman Urbina</span>, Front-end Developer",
-    "descripcion":"Me gusta crear productos frontend sólidos,interactivos y escalables orientados a dar experiencias interesantes al usuario.",
+    "perfil":"Soy <span>Jorman Urbina</span>, Desarrollador Front-end",
+    "descripcion":"Me gusta crear servicios web sólidos, interactivos y escalables orientados a dar experiencias interesantes al usuario.",
     "portafolio":"Ir a Portafolio"
 
   },
 
-  "profile": {
-    "rol": "Desarrollador Frond-end",
-    "description": "Apasionado por la creación y desarrollo de aplicaciones web, con solidos conocimientos de html, css, javascript y react para ofrecer soluciones rápidas, resistentes optimizadas. <br><br>El dinamismo, rendimiento y la escalabilidad son prioridades en mi radar."
+  "sobremi": {
+    "rol": "Desarrollador Front-end",
+    "saludo":"Hola, Soy <span>Jorman Urbina</span>",
+    "descripcion": "Apasionado por la creación y desarrollo de aplicaciones web, con solidos conocimientos de html, css, javascript y react para ofrecer soluciones rápidas, resistentes optimizadas. <br><br>El dinamismo, rendimiento y la escalabilidad son prioridades en mi radar.",
+    "descargarcv":"Descargar CV"
   },
   "habilidades": {
     "html": {
