@@ -136,6 +136,19 @@
             color: #fff;
             display: none;
         }
+        .flags{
+            width: 75px;
+            display: flex;
+            align-items: center;
+            justify-content:space-around ;
+        }
+        .flag_item{
+            width: 22px;
+        }
+        .flag_img{
+            cursor:pointer;
+            display:block
+        }
 
         /* *********************/
         /* seccion S O B R E  M I */
