@@ -1,0 +1,13 @@
+{
+    "profile":{
+        "rol":"Desarrollador Frond-end",
+        "description":"Apasionado por la creación y desarrollo de aplicaciones web, con solidos conocimientos de html, css, javascript y react para ofrecer soluciones rápidas, resistentes optimizadas. <br><br>El dinamismo, rendimiento y la escalabilidad son prioridades en mi radar."
+    },
+    "habilidades":{
+        "html":{
+            "description":"Puedo construir una pagina web desde cero, utilizando etiquetas semanticas actualizadas, dar un SEO que optimice la visibilidad del producto."
+        },
+        "css":{
+            "description":"Para dar estilos con diseños modernos utilizo <span style=\"color: #7952B3;\"> Bootstrap </span> y  <span style=\"color:#06B6D4\">TailwindCss</span> ademas de organizar los estilos con <span style=\"color: #CC6699;\">Sass</span> dandole especial enfasis a que los productos sean responsive, escalable con metolodologias BEM para mejor lectura del codigo."}
+    }
+}
