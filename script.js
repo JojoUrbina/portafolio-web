@@ -24,11 +24,6 @@ function responsiveMenu() {
   }
 }
 
-//detecto el scrolling para aplicar la animación del la barra de habilidades
-window.onscroll = function () {
-  efectoHabilidades();
-};
-
 const habilidades = [
   "Sitios Web Interactivos",
   "Manejo del Dom",
@@ -37,8 +32,7 @@ const habilidades = [
   "Desarrollo orientado eventos",
   "Modularidad y reutilización",
   "Integración de API",
-  "Optimización del rendimiento"
-
+  "Optimización del rendimiento",
 ];
 var indice = 0;
 
@@ -51,3 +45,21 @@ function cambiarTexto() {
   // Actualizar el índice para el siguiente texto
   indice = (indice + 1) % habilidades.length;
 }
+
+const flagsElement = document.getElementById("flags");
+const textsToChange = document.querySelectorAll("[data-section]");
+
+flagsElement.addEventListener("click", (e) => {
+  changeLanguage(e.target.parentElement.dataset.language);
+});
+const changeLanguage = async (language) => {
+  const requestJson = await fetch(`./languages/${language}.json`);
+  const texts = await requestJson.json();
+  for (const textToChange of textsToChange){
+    const section =textToChange.dataset.section;
+    const value= textToChange.dataset.value
+    console.log(section,value)
+    textToChange.innerHTML=texts[section][value]
+    
+  }
+};
