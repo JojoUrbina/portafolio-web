@@ -9,7 +9,7 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilo.css">
-    <title>JU Front-end Developer</title>
+    <title >JU Desarrollador Front-end</title>
 </head>
 
 <body>
@@ -21,11 +21,11 @@
                     <a href="#top"><h1>/JU/</h1></a>
                     <nav id="nav" class="">
                         <ul id="links">
-                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
-                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
-                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
-                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
-                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            <li><a data-section="secciones" data-value="inicio" href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a data-section="secciones" data-value="sobremi" href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a data-section="secciones" data-value="servicios"  href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a data-section="secciones" data-value="portafolio" href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a data-section="secciones" data-value="contacto" href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
                         </ul>
                     </nav>
 
@@ -52,7 +52,7 @@
                 </div>
             </header>
             <div class="presentacion">
-                <p class="bienvenida">Bienvenidos</p>
+                <p class="bienvenida" data-section="presentacion" data-value="bienvenida">Bienvenidos</p>
                 <h2>Soy <span>Jorman Urbina</span>, Front-end Developer</h2>
                 <p class="descripcion">Me gusta crear productos frontend sólidos,interactivos y escalables orientados a
                     dar experiencias interesantes al usuario. </p>
@@ -67,7 +67,7 @@
             <img src="img/foto.jpg" alt="">
         </div>
         <div class="sobremi">
-            <p class="titulo-seccion">Sobre Mi</p>
+            <p class="titulo-seccion" >Sobre Mi</p>
             <h2>Hola, Soy <span>Jorman Urbina</span> </h2>
             <h3 data-section="profile" data-value="rol">Desarrollador Front-end </h3>
             <p data-section="profile" data-value="description">Apasionado por la creación y desarrollo de aplicaciones web, con solidos conocimientos de html, css,
