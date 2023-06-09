@@ -27,7 +27,6 @@ function responsiveMenu() {
 //idioma
 let idioma = "es";
 
-
 const habilidades = [
   "Sitios Web Interactivos",
   "Manejo del Dom",
@@ -82,9 +81,10 @@ async function changeLanguage(language) {
     const section = textToChange.dataset.section;
     const subsection = textToChange.dataset.subsection;
     const value = textToChange.dataset.value;
-
     subsection
       ? (textToChange.innerHTML = texts[section][subsection][value])
       : (textToChange.innerHTML = texts[section][value]);
+    //formulario
+    textToChange.placeholder = texts[section][value];
   }
 }

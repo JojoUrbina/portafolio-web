@@ -48,7 +48,11 @@
 },
 "contacto":{
   "seccion":"CONTACTAME",
-  "enviar":"Enviar mensaje"
+  "enviar":"Enviar mensaje",
+  "nombre":"Nombre Completo ",
+  "correo":"Dirección de Email",
+  "tema":"Tema...",
+  "texto":"Tu Mensaje..."
 },
 "footer":{
   "derechos":"Todos los derechos reservados - 2022"

@@ -48,7 +48,11 @@
   },
   "contacto": {
     "seccion": "CONTACT ME",
-    "enviar": "Send message"
+    "enviar": "Send message",
+    "nombre":"Full Name",
+    "correo":"Email Address",
+    "tema":"Topic...",
+    "texto":"Your Message..."
   },
   "footer":{
     "derechos":"All rights reserved- 2022"
