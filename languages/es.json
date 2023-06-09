@@ -6,19 +6,18 @@
     "portafolio": "PORTAFOLIO",
     "contacto": "CONTACTO"
   },
-  "presentacion":{
-    "bienvenida":"BIENVENIDOS",
-    "perfil":"Soy <span>Jorman Urbina</span>, Desarrollador Front-end",
-    "descripcion":"Me gusta crear servicios web sólidos, interactivos y escalables orientados a dar experiencias interesantes al usuario.",
-    "portafolio":"Ir a Portafolio"
-
+  "presentacion": {
+    "bienvenida": "BIENVENIDOS",
+    "perfil": "Soy <span>Jorman Urbina</span>, Desarrollador Front-end",
+    "descripcion": "Me gusta crear servicios web sólidos, interactivos y escalables orientados a dar experiencias interesantes al usuario.",
+    "portafolio": "Ir a Portafolio"
   },
 
   "sobremi": {
     "rol": "Desarrollador Front-end",
-    "saludo":"Hola, Soy <span>Jorman Urbina</span>",
+    "saludo": "Hola, Soy <span>Jorman Urbina</span>",
     "descripcion": "Apasionado por la creación y desarrollo de aplicaciones web, con solidos conocimientos de html, css, javascript y react para ofrecer soluciones rápidas, resistentes optimizadas. <br><br>El dinamismo, rendimiento y la escalabilidad son prioridades en mi radar.",
-    "descargarcv":"Descargar CV"
+    "descargarcv": "Descargar CV"
   },
   "servicios": {
     "html": {
@@ -27,11 +26,20 @@
     "css": {
       "descripcion": "Para dar estilos con diseños modernos utilizo <span style=\"color: #7952B3;\"> Bootstrap </span> y  <span style=\"color:#06B6D4\">TailwindCss</span> ademas de organizar los estilos con <span style=\"color: #CC6699;\">Sass</span> dandole especial enfasis a que los productos sean responsive, escalable con metolodologias BEM para mejor lectura del codigo."
     },
-    "javascript":{
-      "descripcion":"Con un sólido dominio de JavaScript, lo uso para agregar Interactividad y dinamismo a mis aplicaciones enfocado a la creación de código limpio y escalable.",
-      "click":"↑ Has click ↑"
-    }
-    
-    
-  }
+    "javascript": {
+      "descripcion": "Con un sólido dominio de JavaScript, lo uso para agregar Interactividad y dinamismo a mis aplicaciones enfocado a la creación de código limpio y escalable.",
+      "click": "↑ Has click ↑"
+    },
+    "react":{
+      "descripcion":"Es la biblioteca que utilizo para crear interfaces reutilizables y modernas utilizando herramientas como vite y los hooks que ofrece react para mejorar el rendimiento y velocidad de mis aplicaciones web"
+  },
+  "git&github":{
+    "descripcion":" Tengo experiencia en la creación y gestión de ramas, fusión de cambios, resolución de conflictos y un seguimiento efectivo del historial de cambios en el código.<br> Además, utilizo GitHub Pages para desplegar mis aplicaciones, lo que permite a los usuarios acceder y explorar mi trabajo de forma interactiva.",
+    "repositorio":"Ir a repositorio"
+  },
+  "webpack&npm":{
+    "descripcion":"Con Npm y Webpack me permito aprovechar al máximo el ecosistema de paquetes de JavaScript, gestionar y actualizar las dependencias de manera eficiente ademas de compilar y optimizar el código fuente de mi aplicación",
+    "configuracion":"Configuracion",
+    "rendimiento":"Rendimiento"}
+}
 }

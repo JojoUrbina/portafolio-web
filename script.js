@@ -25,9 +25,9 @@ function responsiveMenu() {
 }
 
 //idioma
-let idioma="es";
+let idioma = "es";
 
-//boton javascript 
+
 const habilidades = [
   "Sitios Web Interactivos",
   "Manejo del Dom",
@@ -50,31 +50,32 @@ const skills = [
 ];
 
 let indice = 0;
-const btnJavascript=document.getElementById("btnjavascript");
-btnJavascript.addEventListener("click",(e)=>{cambiarTexto(idioma)}
-)
+//boton javascript
+const btnJavascript = document.getElementById("btnjavascript");
+btnJavascript.addEventListener("click", (e) => {
+  cambiarTexto(idioma);
+});
 
 function cambiarTexto(idioma) {
   let liTexto = document.getElementById("liTexto");
-if(idioma=="es"){
-  liTexto.textContent = habilidades[indice];
-  indice = (indice + 1) % habilidades.length;
-}else{
-  liTexto.textContent = skills[indice];
-  indice = (indice + 1) % skills.length;
-}
- 
+  if (idioma == "es") {
+    liTexto.textContent = habilidades[indice];
+    indice = (indice + 1) % habilidades.length;
+  } else {
+    liTexto.textContent = skills[indice];
+    indice = (indice + 1) % skills.length;
+  }
 }
 
 const flagsElement = document.getElementById("flags");
 const textsToChange = document.querySelectorAll("[data-section]");
 
 flagsElement.addEventListener("click", (e) => {
-  idioma=e.target.parentElement.dataset.language
+  idioma = e.target.parentElement.dataset.language;
   changeLanguage(idioma);
 });
 
-async function  changeLanguage(language){
+async function changeLanguage(language) {
   const requestJson = await fetch(`./languages/${language}.json`);
   const texts = await requestJson.json();
   for (const textToChange of textsToChange) {
@@ -86,4 +87,4 @@ async function  changeLanguage(language){
       ? (textToChange.innerHTML = texts[section][subsection][value])
       : (textToChange.innerHTML = texts[section][value]);
   }
-};
+}

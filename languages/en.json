@@ -29,7 +29,18 @@
     "javascript":{
       "descripcion":"With a focus on creating clean and scalable code, I use JavaScript to add interactivity and dynamism to my applications. ",
       "click":"↑ click here ↑"
+    },
+    "react":{
+      "descripcion":"It is the library that I use to create reusable and modern interfaces using tools such as the react router and the use of state to improve the performance and speed of my web applications."
+    },
+    "git&github":{
+      "descripcion":"I'm experienced in creating and managing branches, merging changes, resolving conflicts and effectively tracking the history of code changes.<br> I also use GitHub Pages to deploy my applications, allowing users to interactively access and explore my work.",
+      "repositorio":"Go to repository"
+    },
+    "webpack&npm":{
+      "descripcion":"Npm and Webpack allow me to take full advantage of the JavaScript packaging ecosystem, efficiently manage and update dependencies, and compile and optimise my application's source code.",
+      "configuracion": "Configuration",
+      "rendimiento": "Performance"
     }
-
-  }
+}
 }
