@@ -2,7 +2,7 @@
   "secciones": {
     "inicio": "INICIO",
     "sobremi": "SOBRE MI",
-    "servicios": "SERVICIOS",
+    "habilidades": "HABILIDADES",
     "portafolio": "PORTAFOLIO",
     "contacto": "CONTACTO"
   },
@@ -19,7 +19,8 @@
     "descripcion": "Apasionado por la creación y desarrollo de aplicaciones web, con solidos conocimientos de html, css, javascript y react para ofrecer soluciones rápidas, resistentes optimizadas. <br><br>El dinamismo, rendimiento y la escalabilidad son prioridades en mi radar.",
     "descargarcv": "Descargar CV"
   },
-  "servicios": {
+  "habilidades": {
+    "seccion":"MIS HABILIDADES",
     "html": {
       "descripcion": "Puedo construir una pagina web desde cero, utilizando etiquetas semanticas modernas, optimizar el SEO parala optimizacionde la visibilidad del producto"
     },
@@ -41,5 +42,16 @@
     "descripcion":"Con Npm y Webpack me permito aprovechar al máximo el ecosistema de paquetes de JavaScript, gestionar y actualizar las dependencias de manera eficiente ademas de compilar y optimizar el código fuente de mi aplicación",
     "configuracion":"Configuracion",
     "rendimiento":"Rendimiento"}
+},
+"proyectos":{
+  "seccion":"MIS PROYECTOS"
+},
+"contacto":{
+  "seccion":"CONTACTAME",
+  "enviar":"Enviar mensaje"
+},
+"footer":{
+  "derechos":"Todos los derechos reservados - 2022"
 }
+
 }

@@ -2,45 +2,56 @@
   "secciones": {
     "inicio": "HOME",
     "sobremi": "ABOUT ME",
-    "servicios": "SERVICES",
+    "habilidades": "SKILLS",
     "portafolio": "PORTFOLIO",
     "contacto": "CONTACT"
   },
-  "presentacion":{
-    "bienvenida":"WELCOME",
-    "perfil":"I am <span>Jorman Urbina</span>, Front-end Developer",
-    "descripcion":"I like to create solid, interactive and scalable web services oriented to give interesting experiences to the user.",
-    "portafolio":"go to portfolio"
-
+  "presentacion": {
+    "bienvenida": "WELCOME",
+    "perfil": "I am <span>Jorman Urbina</span>, Front-end Developer",
+    "descripcion": "I like to create solid, interactive and scalable web services oriented to give interesting experiences to the user.",
+    "portafolio": "go to portfolio"
   },
   "sobremi": {
     "rol": "Front-end Developer",
-    "saludo":"Hi, I'm <span>Jorman Urbina</span>",
+    "saludo": "Hi, I'm <span>Jorman Urbina</span>",
     "descripcion": "Passionate about the creation and development of web applications, with solid knowledge of html, css, javascript and react to offer fast, resistant and optimized solutions.  <br><br>Dynamism, performance and scalability are high on my radar.",
-    "descargarcv":"Download CV"
+    "descargarcv": "Download CV"
   },
-  "servicios": {
+  "habilidades": {
+    "seccion": "MY SKILLS",
     "html": {
       "descripcion": "I can build a website from scratch, using updated semantic tags, give an SEO that optimizes the visibility of the product."
     },
     "css": {
       "descripcion": "To give styles with modern designs, I use <span style=\"color: #7952B3;\">Bootstrap</span> and <span style=\"color:#06B6D4\">TailwindCss</span>, in addition to organizing the styles with <span style=\"color: #CC6699;\">Sass</span>, emphasizing that the products are responsive and scalable, using BEM methodologies for better code readability."
     },
-    "javascript":{
-      "descripcion":"With a focus on creating clean and scalable code, I use JavaScript to add interactivity and dynamism to my applications. ",
-      "click":"↑ click here ↑"
+    "javascript": {
+      "descripcion": "With a focus on creating clean and scalable code, I use JavaScript to add interactivity and dynamism to my applications. ",
+      "click": "↑ click here ↑"
     },
-    "react":{
-      "descripcion":"It is the library that I use to create reusable and modern interfaces using tools such as the react router and the use of state to improve the performance and speed of my web applications."
+    "react": {
+      "descripcion": "It is the library that I use to create reusable and modern interfaces using tools such as the react router and the use of state to improve the performance and speed of my web applications."
     },
-    "git&github":{
-      "descripcion":"I'm experienced in creating and managing branches, merging changes, resolving conflicts and effectively tracking the history of code changes.<br> I also use GitHub Pages to deploy my applications, allowing users to interactively access and explore my work.",
-      "repositorio":"Go to repository"
+    "git&github": {
+      "descripcion": "I'm experienced in creating and managing branches, merging changes, resolving conflicts and effectively tracking the history of code changes.<br> I also use GitHub Pages to deploy my applications, allowing users to interactively access and explore my work.",
+      "repositorio": "Go to repository"
     },
-    "webpack&npm":{
-      "descripcion":"Npm and Webpack allow me to take full advantage of the JavaScript packaging ecosystem, efficiently manage and update dependencies, and compile and optimise my application's source code.",
+    "webpack&npm": {
+      "descripcion": "Npm and Webpack allow me to take full advantage of the JavaScript packaging ecosystem, efficiently manage and update dependencies, and compile and optimise my application's source code.",
       "configuracion": "Configuration",
       "rendimiento": "Performance"
     }
-}
+  },
+  "proyectos": {
+    "seccion": "MY PROYECTS"
+  },
+  "contacto": {
+    "seccion": "CONTACT ME",
+    "enviar": "Send message"
+  },
+  "footer":{
+    "derechos":"All rights reserved- 2022"
+    
+  }
 }

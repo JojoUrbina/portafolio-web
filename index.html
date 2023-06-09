@@ -23,7 +23,7 @@
                         <ul id="links">
                             <li><a data-section="secciones" data-value="inicio" href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
                             <li><a data-section="secciones" data-value="sobremi" href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
-                            <li><a data-section="secciones" data-value="servicios"  href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a data-section="secciones" data-value="habilidades"  href="#servicios" onclick="seleccionar(this)">HABILIDADES</a></li>
                             <li><a data-section="secciones" data-value="portafolio" href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
                             <li><a data-section="secciones" data-value="contacto" href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
                         </ul>
@@ -81,19 +81,19 @@
 
     <!-- SECCION S E R V I C I O S -->
     <section id="servicios">
-        <h3 class="titulo-seccion">MIS HABILIDADES</h3>
+        <h3 class="titulo-seccion" data-section="habilidades"data-value="seccion">MIS HABILIDADES</h3>
         <div class="fila">
             <div class="servicio" id="html">
                 <span class="icono"> <i class="fa-brands fa-html5 fa-xl" style="color:#E34F26"></i></span>
                 <h4>HTML</h4>
                 <hr>
-               <p data-section="servicios" data-subsection="html" data-value="descripcion">Puedo construir una pagina web desde cero, utilizando etiquetas semanticas modernas, optimizar el SEO parala optimizacionde la visibilidad del producto.</p>
+               <p data-section="habilidades" data-subsection="html" data-value="descripcion">Puedo construir una pagina web desde cero, utilizando etiquetas semanticas modernas, optimizar el SEO parala optimizacionde la visibilidad del producto.</p>
             </div>
             <div class="servicio" id="css">
                 <span class="icono"><i class="fa-brands fa-css3-alt fa-xl" style="color: #1572B6;"></i></span>
                 <h4>Css</h4>
                 <hr>
-                <p data-section="servicios" data-subsection="css" data-value="descripcion">Para dar estilos con diseños modernos utilizo <span style="color: #7952B3;"> Bootstrap </span> y  <span style="color:#06B6D4">TailwindCss</span> ademas de organizar los estilos con <span style="color: #CC6699;">Sass</span> dandole especial enfasis a que los productos sean responsive, escalable con metolodologias BEM para mejor lectura del codigo.</p>
+                <p data-section="habilidades" data-subsection="css" data-value="descripcion">Para dar estilos con diseños modernos utilizo <span style="color: #7952B3;"> Bootstrap </span> y  <span style="color:#06B6D4">TailwindCss</span> ademas de organizar los estilos con <span style="color: #CC6699;">Sass</span> dandole especial enfasis a que los productos sean responsive, escalable con metolodologias BEM para mejor lectura del codigo.</p>
             </div>
             <div class="servicio" id="javascript">
                 <span class="icono" id="btnjavascript"><i class="fa-brands fa-js fa-xl"
@@ -101,9 +101,9 @@
                 <h4>Javascript</h4>
                 <hr>
                 <ul class="servicios-tag">
-                    <li id="liTexto"><u class="fa fa-bounce" data-section="servicios" data-subsection="javascript" data-value="click" >  ↑ Has click ↑  </u></li>
+                    <li id="liTexto"><u class="fa fa-bounce" data-section="habilidades" data-subsection="javascript" data-value="click" >  ↑ Has click ↑  </u></li>
                 </ul>
-                <p data-section="servicios" data-subsection="javascript" data-value="descripcion">Con un sólido dominio de JavaScript, lo uso para agregar Interactividad y dinamismo a mis aplicaciones enfocado a la creación de código limpio y escalable. </p>
+                <p data-section="habilidades" data-subsection="javascript" data-value="descripcion">Con un sólido dominio de JavaScript, lo uso para agregar Interactividad y dinamismo a mis aplicaciones enfocado a la creación de código limpio y escalable. </p>
             </div>
         </div>
         <div class="fila">
@@ -116,19 +116,19 @@
                     <li>Hooks</li>
                     <li>Interfaces</li>
                 </ul>
-                <p data-section="servicios" data-subsection="react" data-value="descripcion">Es la biblioteca que utilizo para crear interfaces reutilizables y modernas utilizando herramientas como vite y los hooks que ofrece react para mejorar el rendimiento y velocidad de mis aplicaciones web.</p>
+                <p data-section="habilidades" data-subsection="react" data-value="descripcion">Es la biblioteca que utilizo para crear interfaces reutilizables y modernas utilizando herramientas como vite y los hooks que ofrece react para mejorar el rendimiento y velocidad de mis aplicaciones web.</p>
             </div>
             <div class="servicio" id="github">
                 <span class="icono"><i class="fa-brands fa-github fa-xl" style="color: #181717;"></i></span>
                 <h4>Git & Github</h4>
                 <hr>
-                <p data-section="servicios" data-subsection="git&github" data-value="descripcion">
+                <p data-section="habilidades" data-subsection="git&github" data-value="descripcion">
                 Tengo experiencia en la creación y gestión de ramas, fusión de cambios, resolución de conflictos y un seguimiento efectivo del historial de cambios en el código.
                 <br>
                 Además, utilizo GitHub Pages para desplegar mis aplicaciones, lo que permite a los usuarios acceder y explorar mi trabajo de forma interactiva.
                     
                 </p>
-                <a id="repositorio" href="https://github.com/JojoUrbina" data-section="servicios" data-subsection="git&github" data-value="repositorio">Ir a repositorio</a>
+                <a id="repositorio" href="https://github.com/JojoUrbina" data-section="habilidades" data-subsection="git&github" data-value="repositorio">Ir a repositorio</a>
 
             </div>
             <div class="servicio" id="webpack">
@@ -136,17 +136,17 @@
                 <h4>Webpack & Npm</h4>
                 <hr>
                 <ul class="servicios-tag">
-                    <li style="color: #8DD6F9" data-section="servicios" data-subsection="webpack&npm" data-value="configuracion">Configuracion</li>
-                    <li style="color: #CB3837" data-section="servicios" data-subsection="webpack&npm" data-value="rendimiento">Rendimiento</li>
+                    <li style="color: #8DD6F9" data-section="habilidades" data-subsection="webpack&npm" data-value="configuracion">Configuracion</li>
+                    <li style="color: #CB3837" data-section="habilidades" data-subsection="webpack&npm" data-value="rendimiento">Rendimiento</li>
                 </ul>
-                <p data-section="servicios" data-subsection="webpack&npm" data-value="descripcion">Con Npm y Webpack me permito aprovechar al máximo el ecosistema de paquetes de JavaScript, gestionar y actualizar las dependencias de manera eficiente ademas de compilar y optimizar el código fuente de mi aplicación
+                <p data-section="habilidades" data-subsection="webpack&npm" data-value="descripcion">Con Npm y Webpack me permito aprovechar al máximo el ecosistema de paquetes de JavaScript, gestionar y actualizar las dependencias de manera eficiente ademas de compilar y optimizar el código fuente de mi aplicación
                 </p>
             </div>
         </div>
     </section>
     <!-- SECCION PORTAFOLIO -->
     <section id="portfolio">
-        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <h3 class="titulo-seccion" data-section="proyectos" data-value="seccion">MIS PROYECTOS</h3>
         <div class="fila">
             <div class="proyecto">
                 <a href="https://jojourbina.github.io/react-expense-tracker/" target="_blank">
@@ -238,7 +238,7 @@
 
     <!-- SECCTION C O N T A C T O -->
     <section class="contenedor-skills" id="contacto">
-        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <h3 class="titulo-seccion" data-section="contacto" data-value="seccion">CONTACTAME</h3>
         <div class="contenedor-form">
             <form action="mailto:jormanurbina1@gmail.com">
                 <div class="fila mitad">
@@ -253,14 +253,14 @@
                         class="input-full"></textarea>
                 </div>
 
-                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                <button type="submit" class="btn-enviar" data-section="contacto" data-value="enviar">Enviar Mensaje</button>
             </form>
         </div>
     </section>
 
     <!-- SECCION FOOTER -->
     <footer>
-        <p>Todos los derechos reservados - 2022</p>
+        <p data-section="footer" data-value="derechos">Todos los derechos reservados - 2022</p>
         <div class="redes">
             <a href="https://www.linkedin.com/in/jorman-urbina-orfila/"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/JojoUrbina"><i class="fa-brands fa-github"></i></a>
