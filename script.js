@@ -24,6 +24,10 @@ function responsiveMenu() {
   }
 }
 
+//idioma
+let idioma="es";
+
+//boton javascript 
 const habilidades = [
   "Sitios Web Interactivos",
   "Manejo del Dom",
@@ -34,32 +38,52 @@ const habilidades = [
   "Integración de API",
   "Optimización del rendimiento",
 ];
-var indice = 0;
+const skills = [
+  "Interactive Websites",
+  "DOM Manipulation",
+  "Scalable JS Code",
+  "Asynchronous Programming",
+  "Event-Driven Development",
+  "Modularity and Reusability",
+  "API Integration",
+  "Performance Optimization",
+];
 
-function cambiarTexto() {
-  // Obtener el div por su id
-  var liTexto = document.getElementById("liTexto");
+let indice = 0;
+const btnJavascript=document.getElementById("btnjavascript");
+btnJavascript.addEventListener("click",(e)=>{cambiarTexto(idioma)}
+)
 
+function cambiarTexto(idioma) {
+  let liTexto = document.getElementById("liTexto");
+if(idioma=="es"){
   liTexto.textContent = habilidades[indice];
-
-  // Actualizar el índice para el siguiente texto
   indice = (indice + 1) % habilidades.length;
+}else{
+  liTexto.textContent = skills[indice];
+  indice = (indice + 1) % skills.length;
+}
+ 
 }
 
 const flagsElement = document.getElementById("flags");
 const textsToChange = document.querySelectorAll("[data-section]");
 
 flagsElement.addEventListener("click", (e) => {
-  changeLanguage(e.target.parentElement.dataset.language);
+  idioma=e.target.parentElement.dataset.language
+  changeLanguage(idioma);
 });
-const changeLanguage = async (language) => {
+
+async function  changeLanguage(language){
   const requestJson = await fetch(`./languages/${language}.json`);
   const texts = await requestJson.json();
-  for (const textToChange of textsToChange){
-    const section =textToChange.dataset.section;
-    const value= textToChange.dataset.value
-    console.log(section,value)
-    textToChange.innerHTML=texts[section][value]
-    
+  for (const textToChange of textsToChange) {
+    const section = textToChange.dataset.section;
+    const subsection = textToChange.dataset.subsection;
+    const value = textToChange.dataset.value;
+
+    subsection
+      ? (textToChange.innerHTML = texts[section][subsection][value])
+      : (textToChange.innerHTML = texts[section][value]);
   }
 };

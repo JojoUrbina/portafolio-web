@@ -20,12 +20,18 @@
     "descripcion": "Apasionado por la creación y desarrollo de aplicaciones web, con solidos conocimientos de html, css, javascript y react para ofrecer soluciones rápidas, resistentes optimizadas. <br><br>El dinamismo, rendimiento y la escalabilidad son prioridades en mi radar.",
     "descargarcv":"Descargar CV"
   },
-  "habilidades": {
+  "servicios": {
     "html": {
-      "description": "Puedo construir una pagina web desde cero, utilizando etiquetas semanticas actualizadas, dar un SEO que optimice la visibilidad del producto."
+      "descripcion": "Puedo construir una pagina web desde cero, utilizando etiquetas semanticas modernas, optimizar el SEO parala optimizacionde la visibilidad del producto"
     },
     "css": {
-      "description": "Para dar estilos con diseños modernos utilizo <span style=\"color: #7952B3;\"> Bootstrap </span> y  <span style=\"color:#06B6D4\">TailwindCss</span> ademas de organizar los estilos con <span style=\"color: #CC6699;\">Sass</span> dandole especial enfasis a que los productos sean responsive, escalable con metolodologias BEM para mejor lectura del codigo."
+      "descripcion": "Para dar estilos con diseños modernos utilizo <span style=\"color: #7952B3;\"> Bootstrap </span> y  <span style=\"color:#06B6D4\">TailwindCss</span> ademas de organizar los estilos con <span style=\"color: #CC6699;\">Sass</span> dandole especial enfasis a que los productos sean responsive, escalable con metolodologias BEM para mejor lectura del codigo."
+    },
+    "javascript":{
+      "descripcion":"Con un sólido dominio de JavaScript, lo uso para agregar Interactividad y dinamismo a mis aplicaciones enfocado a la creación de código limpio y escalable.",
+      "click":"↑ Has click ↑"
     }
+    
+    
   }
 }

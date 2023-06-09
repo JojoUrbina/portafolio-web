@@ -19,39 +19,17 @@
     "descripcion": "Passionate about the creation and development of web applications, with solid knowledge of html, css, javascript and react to offer fast, resistant and optimized solutions.  <br><br>Dynamism, performance and scalability are high on my radar.",
     "descargarcv":"Download CV"
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  "habilidades": {
+  "servicios": {
     "html": {
-      "description": "Puedo construir una pagina web desde cero, utilizando etiquetas semanticas actualizadas, dar un SEO que optimice la visibilidad del producto."
+      "descripcion": "I can build a website from scratch, using updated semantic tags, give an SEO that optimizes the visibility of the product."
     },
     "css": {
-      "description": "Para dar estilos con diseños modernos utilizo <span style=\"color: #7952B3;\"> Bootstrap </span> y  <span style=\"color:#06B6D4\">TailwindCss</span> ademas de organizar los estilos con <span style=\"color: #CC6699;\">Sass</span> dandole especial enfasis a que los productos sean responsive, escalable con metolodologias BEM para mejor lectura del codigo."
+      "descripcion": "To give styles with modern designs, I use <span style=\"color: #7952B3;\">Bootstrap</span> and <span style=\"color:#06B6D4\">TailwindCss</span>, in addition to organizing the styles with <span style=\"color: #CC6699;\">Sass</span>, emphasizing that the products are responsive and scalable, using BEM methodologies for better code readability."
+    },
+    "javascript":{
+      "descripcion":"With a focus on creating clean and scalable code, I use JavaScript to add interactivity and dynamism to my applications. ",
+      "click":"↑ click here ↑"
     }
+
   }
 }
