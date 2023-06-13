@@ -111,3 +111,10 @@ document.getElementById('form')
     });
 });
 
+let titulo=document.title;
+window.addEventListener("blur",()=>{
+    document.title="Hey !! Come Back ;("
+})
+window.addEventListener("focus",()=>{
+    document.title=titulo
+})
