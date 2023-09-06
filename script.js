@@ -110,10 +110,10 @@ document.getElementById('form')
       alert(JSON.stringify(err));
     });
 });
-
+//Efecto del titulo 
 let titulo=document.title;
 window.addEventListener("blur",()=>{
-    document.title="Hey !! Come Back ;("
+    document.title="Hey a donde vas!! :("
 })
 window.addEventListener("focus",()=>{
     document.title=titulo
