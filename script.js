@@ -13,6 +13,10 @@ function seleccionar(link) {
   var x = document.getElementById("nav");
   x.className = "";
 }
+//elementos de la descarga del CV
+const linkCV= document.querySelector("#CV")
+const LinkCVSpanish="https://drive.google.com/uc?export=download&id=1mBnosK6F_HLKZgZ1PdHVG8jnHyIZigW8"
+const LinkCVEnglish="https://drive.google.com/uc?export=download&id=11jwS044c6FGiXmkkZQxAwP_y_7UWpEBm"
 
 //función que muestra el menu responsive
 function responsiveMenu() {
@@ -72,6 +76,7 @@ const textsToChange = document.querySelectorAll("[data-section]");
 flagsElement.addEventListener("click", (e) => {
   idioma = e.target.parentElement.dataset.language;
   changeLanguage(idioma);
+  changeLinkCV(idioma)
 });
 
 async function changeLanguage(language) {
@@ -118,3 +123,15 @@ window.addEventListener("blur",()=>{
 window.addEventListener("focus",()=>{
     document.title=titulo
 })
+
+function changeLinkCV(idioma) {
+  if (idioma=="es") {
+    linkCV.href=LinkCVSpanish
+    console.log(LinkCVSpanish)
+  }else if(idioma=="en") {
+    linkCV.href=LinkCVEnglish
+    console.log(LinkCVEnglish)
+  }
+}
+
+
