@@ -15,8 +15,8 @@ function seleccionar(link) {
 }
 //elementos de la descarga del CV
 const linkCV= document.querySelector("#CV")
-const LinkCVSpanish="https://drive.google.com/uc?export=download&id=1mBnosK6F_HLKZgZ1PdHVG8jnHyIZigW8"
-const LinkCVEnglish="https://drive.google.com/uc?export=download&id=11jwS044c6FGiXmkkZQxAwP_y_7UWpEBm"
+const LinkCVSpanish="https://drive.google.com/uc?export=download&id=1vyGc-dLkyuNOtetGQJKDoAXq3CmfpArz"
+const LinkCVEnglish="https://drive.google.com/uc?export=download&id=1VWwWtlxMNT_PO9wTCiTqf6anoXFVSZZX"
 
 //función que muestra el menu responsive
 function responsiveMenu() {
