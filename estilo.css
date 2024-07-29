@@ -511,7 +511,8 @@
 
         #portfolio .fila .proyecto {
             max-width: 344px;
-            border: 1px solid #0000007e;
+            box-shadow: 0 0 5px #ccc;
+
             margin: 0 10px;
             position: relative;
             overflow: hidden;
@@ -528,7 +529,6 @@
             ;
             filter: grayscale(1);
             object-fit: cover;
-            transition: .5s;
         }
 
         #portfolio .fila .proyecto:hover img {
