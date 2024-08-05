@@ -527,12 +527,12 @@
             width: 100%;
             height: 100%;
             ;
-            filter: grayscale(1);
+           /*  filter: grayscale(1); */
             object-fit: cover;
         }
 
         #portfolio .fila .proyecto:hover img {
-            filter: grayscale(0);
+            /* filter: grayscale(0); */
             cursor: pointer;
 
         }
@@ -544,14 +544,18 @@
             color: #33b8d6;
             width: 100%;
             padding: 10px;
-            opacity: 0;
-            bottom: -40px;
+            /* opacity: 0; */
+            /* bottom: -40px; */
             transition: .5s;
+            bottom: 0;
+
         }
 
         #portfolio .fila .proyecto:hover .info {
-            opacity: 1;
-            bottom: 0;
+           /*  opacity: 1; */
+            /* bottom: 0; */
+            opacity: 0;
+            bottom: -40px;
         }
         #portfolio .fila .proyecto:hover .info h4 {
             text-align: center;
