@@ -1,206 +1,365 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="estilo.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css" />
     <title>JU Desarrollador Front-end</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
 
     <script type="text/javascript">
-        emailjs.init('fIIgw_EyUuBIKGou0')
+      emailjs.init("fIIgw_EyUuBIKGou0");
     </script>
-  
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- SECCION I N I C I O -->
     <section id="inicio">
-        <div class="contenido">
-            <header>
-                <div class="contenido-header">
-                    <a href="#top">
-                        <h1>/JU/</h1>
-                    </a>
-                    <nav id="nav" class="">
-                        <ul id="links">
-                            <li><a data-section="secciones" data-value="inicio" href="#inicio" class="seleccionado"
-                                    onclick="seleccionar(this)">INICIO</a></li>
-                            <li><a data-section="secciones" data-value="sobremi" href="#sobremi"
-                                    onclick="seleccionar(this)">SOBRE MI</a></li>
-                            <li><a data-section="secciones" data-value="habilidades" href="#servicios"
-                                    onclick="seleccionar(this)">HABILIDADES</a></li>
-                            <li><a data-section="secciones" data-value="portafolio" href="#portfolio"
-                                    onclick="seleccionar(this)">PORTAFOLIO</a></li>
-                            <li><a data-section="secciones" data-value="contacto" href="#contacto"
-                                    onclick="seleccionar(this)">CONTACTO</a></li>
-                        </ul>
-                    </nav>
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <a href="#top">
+              <h1>/JU/</h1>
+            </a>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a
+                    data-section="secciones"
+                    data-value="inicio"
+                    href="#inicio"
+                    class="seleccionado"
+                    onclick="seleccionar(this)"
+                    >INICIO</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-section="secciones"
+                    data-value="sobremi"
+                    href="#sobremi"
+                    onclick="seleccionar(this)"
+                    >SOBRE MI</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-section="secciones"
+                    data-value="habilidades"
+                    href="#servicios"
+                    onclick="seleccionar(this)"
+                    >HABILIDADES</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-section="secciones"
+                    data-value="portafolio"
+                    href="#portfolio"
+                    onclick="seleccionar(this)"
+                    >PORTAFOLIO</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-section="secciones"
+                    data-value="contacto"
+                    href="#contacto"
+                    onclick="seleccionar(this)"
+                    >CONTACTO</a
+                  >
+                </li>
+              </ul>
+            </nav>
 
-                    <!-- Icono del menu responsive -->
-                    <div id="icono-nav" onclick="responsiveMenu()">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-                    <div id="flags" class="flags">
-                        <div class="flag_item" data-language="es">
-                            <img class="flag_img" src="img/es.svg" alt="">
-                        </div>
-                        <div class="flag_item" data-language="en">
-                            <img class="flag_img" src="img/gb.svg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="redes">
-                        <a href="https://www.linkedin.com/in/jorman-urbina-orfila/"><i
-                                class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/JojoUrbina"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.instagram.com/jormanurbina/"><i
-                                class="fa-brands fa-instagram-square"></i></a>
-                    </div>
-                </div>
-            </header>
-            <div class="presentacion">
-                <p class="bienvenida" data-section="presentacion" data-value="bienvenida">Bienvenidos</p>
-                <h2 data-section="presentacion" data-value="perfil">Soy <span>Jorman Urbina</span>, Desarrollador
-                    Front-end </h2>
-                <p class="descripcion" data-section="presentacion" data-value="descripcion">Me gusta crear productos
-                    frontend sólidos,interactivos y escalables orientados a
-                    dar experiencias interesantes al usuario. </p>
-                <a href="#portfolio" data-section="presentacion" data-value="portafolio">Ir a Portafolio</a>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
             </div>
+            <div id="flags" class="flags">
+              <div class="flag_item" data-language="es">
+                <img class="flag_img" src="img/es.svg" alt="" />
+              </div>
+              <div class="flag_item" data-language="en">
+                <img class="flag_img" src="img/gb.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="redes">
+              <a href="https://www.linkedin.com/in/jorman-urbina-orfila/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/JojoUrbina"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.instagram.com/jormanurbina/"
+                ><i class="fa-brands fa-instagram-square"></i
+              ></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p
+            class="bienvenida"
+            data-section="presentacion"
+            data-value="bienvenida"
+          >
+            Bienvenidos
+          </p>
+          <h2 data-section="presentacion" data-value="perfil">
+            Soy <span>Jorman Urbina</span>, Desarrollador Front-end
+          </h2>
+          <p
+            class="descripcion"
+            data-section="presentacion"
+            data-value="descripcion"
+          >
+            Me gusta crear productos frontend sólidos,interactivos y escalables
+            orientados a dar experiencias interesantes al usuario.
+          </p>
+          <a
+            href="#portfolio"
+            data-section="presentacion"
+            data-value="portafolio"
+            >Ir a Portafolio</a
+          >
         </div>
+      </div>
     </section>
 
     <!-- SECCION S O B R E M I -->
     <section id="sobremi">
-        <div class="sobremi">
-            <p class="titulo-seccion" data-section="secciones" data-value="sobremi">Sobre Mi</p>
-            <h2 data-section="sobremi" data-value="saludo">Hola, Soy <span>Jorman Urbina</span> </h2>
-            <h3 data-section="sobremi" data-value="rol">Desarrollador Front-end </h3>
-            <p data-section="sobremi" data-value="descripcion">Apasionado por la creación y desarrollo de aplicaciones
-                web, con solidos conocimientos de html, css, javascript y react para ofrecer soluciones rápidas,
-                resistentes optimizadas.
-                <br>
-                <br>
-                El dinamismo, rendimiento y la escalabilidad son prioridades en mi radar.
-            </p>
-            <a id="CV" href="https://drive.google.com/uc?export=download&id=1KVG3gg82_E9y3xQF32e6zU6Hf-HvPoPU"
-                data-section="sobremi" data-value="descargarcv">Descargar CV</a>
-        </div>
+      <div class="sobremi">
+        <p class="titulo-seccion" data-section="secciones" data-value="sobremi">
+          Sobre Mi
+        </p>
+        <h2 data-section="sobremi" data-value="saludo">
+          Hola, Soy <span>Jorman Urbina</span>
+        </h2>
+        <h3 data-section="sobremi" data-value="rol">Desarrollador Front-end</h3>
+        <p data-section="sobremi" data-value="descripcion">
+          Apasionado por la creación y desarrollo de aplicaciones web, con
+          solidos conocimientos de html, css, javascript y react para ofrecer
+          soluciones rápidas, resistentes optimizadas.
+          <br />
+          <br />
+          El dinamismo, rendimiento y la escalabilidad son prioridades en mi
+          radar.
+        </p>
+        <a
+          id="CV"
+          href="https://drive.google.com/uc?export=download&id=1KVG3gg82_E9y3xQF32e6zU6Hf-HvPoPU"
+          data-section="sobremi"
+          data-value="descargarcv"
+          >Descargar CV</a
+        >
+      </div>
     </section>
 
     <!-- SECCION S E R V I C I O S -->
     <section id="servicios">
-        <h3 class="titulo-seccion" data-section="habilidades" data-value="seccion">MIS HABILIDADES</h3>
-        <div class="fila">
-            <div class="servicio" id="html">
-                <span class="icono"> <i class="fa-brands fa-html5 fa-xl" style="color:#E34F26"></i></span>
-                <h4>HTML</h4>
-                <hr>
-                <p data-section="habilidades" data-subsection="html" data-value="descripcion">Puedo construir una pagina
-                    web desde cero, utilizando etiquetas semanticas modernas, optimizar el SEO parala optimizacionde la
-                    visibilidad del producto.</p>
-            </div>
-            <div class="servicio" id="css">
-                <span class="icono"><i class="fa-brands fa-css3-alt fa-xl" style="color: #1572B6;"></i></span>
-                <h4>Css</h4>
-                <hr>
-                <p data-section="habilidades" data-subsection="css" data-value="descripcion">Para dar estilos con
-                    diseños modernos utilizo <span style="color: #7952B3;"> Bootstrap </span> y <span
-                        style="color:#06B6D4">TailwindCss</span> ademas de organizar los estilos con <span
-                        style="color: #CC6699;">Sass</span> dandole especial enfasis a que los productos sean
-                    responsive, escalable con metolodologias BEM para mejor lectura del codigo.</p>
-            </div>
-            <div class="servicio" id="javascript">
-                <span class="icono" id="btnjavascript"><i class="fa-brands fa-js fa-xl"
-                        style="color: #eeda44"></i></span>
-                <h4>Javascript</h4>
-                <hr>
-                <ul class="servicios-tag">
-                    <li id="liTexto"><u class="fa fa-bounce" data-section="habilidades" data-subsection="javascript"
-                            data-value="click"> ↑ Has click ↑ </u></li>
-                </ul>
-                <p data-section="habilidades" data-subsection="javascript" data-value="descripcion">Con un sólido
-                    dominio de JavaScript, lo uso para agregar Interactividad y dinamismo a mis aplicaciones enfocado a
-                    la creación de código limpio y escalable. </p>
-            </div>
+      <h3
+        class="titulo-seccion"
+        data-section="habilidades"
+        data-value="seccion"
+      >
+        MIS HABILIDADES
+      </h3>
+      <div class="fila">
+        <div class="servicio" id="html">
+          <span class="icono">
+            <i class="fa-brands fa-html5 fa-xl" style="color: #e34f26"></i
+          ></span>
+          <h4>HTML</h4>
+          <hr />
+          <p
+            data-section="habilidades"
+            data-subsection="html"
+            data-value="descripcion"
+          >
+            Puedo construir una pagina web desde cero, utilizando etiquetas
+            semanticas modernas, optimizar el SEO parala optimizacionde la
+            visibilidad del producto.
+          </p>
         </div>
-        <div class="fila">
-            <div class="servicio" id="react">
-                <span class="icono"><i class="fa-brands fa-react fa-xl" style="color: #61dafb;"></i></span>
-                <h4>React & React Native</h4>
-                <hr>
-                <ul class="servicios-tag">
-                    <li style="color:#646CFF">Vite</li>
-                    <li >Hooks</li>
-                    <li>Interfaces</li>
-                </ul>
-                <p data-section="habilidades" data-subsection="react" data-value="descripcion">Es la biblioteca que
-                    utilizo para crear interfaces reutilizables y modernas utilizando herramientas como vite y los hooks
-                    que ofrece react para mejorar el rendimiento y velocidad de mis aplicaciones web.</p>
-            </div>
-            <div class="servicio" id="github">
-                <span class="icono"><i class="fa-brands fa-github fa-xl" style="color: #181717;"></i></span>
-                <h4>Git & Github</h4>
-                <hr>
-                <p data-section="habilidades" data-subsection="git&github" data-value="descripcion">
-                    Tengo experiencia en la creación y gestión de ramas, fusión de cambios, resolución de conflictos y
-                    un seguimiento efectivo del historial de cambios en el código.
-                    <br>
-                    Además, utilizo GitHub Pages para desplegar mis aplicaciones, lo que permite a los usuarios acceder
-                    y explorar mi trabajo de forma interactiva.
-
-                </p>
-                <a id="repositorio" href="https://github.com/JojoUrbina" data-section="habilidades"
-                    data-subsection="git&github" data-value="repositorio">Ir a repositorio</a>
-
-            </div>
-            <div class="servicio" id="webpack">
-                <span class="icono"><i class="fa-solid fa-gears fa-bounce fa-lg"></i></span>
-                <h4>Webpack & Npm</h4>
-                <hr>
-                <ul class="servicios-tag">
-                    <li style="color: #8DD6F9" data-section="habilidades" data-subsection="webpack&npm"
-                        data-value="configuracion">Configuracion</li>
-                    <li style="color: #CB3837" data-section="habilidades" data-subsection="webpack&npm"
-                        data-value="rendimiento">Rendimiento</li>
-                </ul>
-                <p data-section="habilidades" data-subsection="webpack&npm" data-value="descripcion">Con Npm y Webpack
-                    me permito aprovechar al máximo el ecosistema de paquetes de JavaScript, gestionar y actualizar las
-                    dependencias de manera eficiente ademas de compilar y optimizar el código fuente de mi aplicación
-                </p>
-            </div>
+        <div class="servicio" id="css">
+          <span class="icono"
+            ><i class="fa-brands fa-css3-alt fa-xl" style="color: #1572b6"></i
+          ></span>
+          <h4>Css</h4>
+          <hr />
+          <p
+            data-section="habilidades"
+            data-subsection="css"
+            data-value="descripcion"
+          >
+            Para dar estilos con diseños modernos utilizo
+            <span style="color: #7952b3"> Bootstrap </span> y
+            <span style="color: #06b6d4">TailwindCss</span> ademas de organizar
+            los estilos con <span style="color: #cc6699">Sass</span> dandole
+            especial enfasis a que los productos sean responsive, escalable con
+            metolodologias BEM para mejor lectura del codigo.
+          </p>
         </div>
+        <div class="servicio" id="javascript">
+          <span class="icono" id="btnjavascript"
+            ><i class="fa-brands fa-js fa-xl" style="color: #eeda44"></i
+          ></span>
+          <h4>Javascript</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li id="liTexto">
+              <u
+                class="fa fa-bounce"
+                data-section="habilidades"
+                data-subsection="javascript"
+                data-value="click"
+              >
+                ↑ Has click ↑
+              </u>
+            </li>
+          </ul>
+          <p
+            data-section="habilidades"
+            data-subsection="javascript"
+            data-value="descripcion"
+          >
+            Con un sólido dominio de JavaScript, lo uso para agregar
+            Interactividad y dinamismo a mis aplicaciones enfocado a la creación
+            de código limpio y escalable.
+          </p>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="servicio" id="react">
+          <span class="icono"
+            ><i class="fa-brands fa-react fa-xl" style="color: #61dafb"></i
+          ></span>
+          <h4>React & React Native</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li style="color: #646cff">Vite</li>
+            <li>Hooks</li>
+            <li>Interfaces</li>
+          </ul>
+          <p
+            data-section="habilidades"
+            data-subsection="react"
+            data-value="descripcion"
+          >
+            Es la biblioteca que utilizo para crear interfaces reutilizables y
+            modernas utilizando herramientas como vite y los hooks que ofrece
+            react para mejorar el rendimiento y velocidad de mis aplicaciones
+            web.
+          </p>
+        </div>
+        <div class="servicio" id="github">
+          <span class="icono"
+            ><i class="fa-brands fa-github fa-xl" style="color: #181717"></i
+          ></span>
+          <h4>Git & Github</h4>
+          <hr />
+          <p
+            data-section="habilidades"
+            data-subsection="git&github"
+            data-value="descripcion"
+          >
+            Tengo experiencia en la creación y gestión de ramas, fusión de
+            cambios, resolución de conflictos y un seguimiento efectivo del
+            historial de cambios en el código.
+            <br />
+            Además, utilizo GitHub Pages para desplegar mis aplicaciones, lo que
+            permite a los usuarios acceder y explorar mi trabajo de forma
+            interactiva.
+          </p>
+          <a
+            id="repositorio"
+            href="https://github.com/JojoUrbina"
+            data-section="habilidades"
+            data-subsection="git&github"
+            data-value="repositorio"
+            >Ir a repositorio</a
+          >
+        </div>
+        <div class="servicio" id="webpack">
+          <span class="icono"
+            ><i class="fa-solid fa-gears fa-bounce fa-lg"></i
+          ></span>
+          <h4>Webpack & Npm</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li
+              style="color: #8dd6f9"
+              data-section="habilidades"
+              data-subsection="webpack&npm"
+              data-value="configuracion"
+            >
+              Configuracion
+            </li>
+            <li
+              style="color: #cb3837"
+              data-section="habilidades"
+              data-subsection="webpack&npm"
+              data-value="rendimiento"
+            >
+              Rendimiento
+            </li>
+          </ul>
+          <p
+            data-section="habilidades"
+            data-subsection="webpack&npm"
+            data-value="descripcion"
+          >
+            Con Npm y Webpack me permito aprovechar al máximo el ecosistema de
+            paquetes de JavaScript, gestionar y actualizar las dependencias de
+            manera eficiente ademas de compilar y optimizar el código fuente de
+            mi aplicación
+          </p>
+        </div>
+      </div>
     </section>
     <!-- SECCION PORTAFOLIO -->
     <section id="portfolio">
-        <h3 class="titulo-seccion" data-section="proyectos" data-value="seccion">MIS PROYECTOS</h3>
-        <div class="fila">
-            <div class="proyecto">
-                <a href="https://comparadordepaises.netlify.app/" target="_blank">
-                    <img src="img/proyecto1.png" alt="">
-                </a>
-                <div class="info">
-                    <h4>HTML + CSS + Bootstrap + Javascript + API + LocalStorage + Responsive</h4>
-                    <p>Comparador de Países</p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <a href="https://calculadoradeluz.netlify.app/" target="_blank">
-                    <img src="img/proyecto2.png" alt="">
-                </a>
-                <div class="info">
-                    <h4>React + Material IU + Responsive</h4>
-                    <p>Calculadora de luz</p>
-                </div>
-            </div>
-          <!--   <div class="proyecto">
+      <h3 class="titulo-seccion" data-section="proyectos" data-value="seccion">
+        MIS PROYECTOS
+      </h3>
+      <div class="fila">
+        <div class="proyecto">
+          <a href="https://comparadordepaises.netlify.app/" target="_blank">
+            <img src="img/proyecto1.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>
+              HTML + CSS + Bootstrap + Javascript + API + LocalStorage +
+              Responsive
+            </h4>
+            <p>Comparador de Países</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <a href="https://calculadoradeluz.netlify.app/" target="_blank">
+            <img src="img/proyecto2.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>React + Material IU + Responsive</h4>
+            <p>Calculadora de factura de luz</p>
+          </div>
+        </div>
+        <!--   <div class="proyecto">
                 <a href="https://trivia-3.netlify.app/" target="_blank">
                     <img src="img/proyecto2.png" alt="">
                 </a>
@@ -209,45 +368,50 @@
                     <p>Trivia 3.0</p>
                 </div>
             </div> -->
-            <div class="proyecto">
-                <a href="https://jojourbina.github.io/Juego-Breakout/" target="_blank">
-                    <img src="img/proyecto3.png" alt="">
-                </a>
-                <div class="info">
-                    <h4>HTML + CSS + JAVASCRIPT</h4>
-                    <p>Juego Breakout</p>
-                </div>
-            </div>
+        <div class="proyecto">
+          <a
+            href="https://jojourbina.github.io/Juego-Breakout/"
+            target="_blank"
+          >
+            <img src="img/proyecto3.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>HTML + CSS + JAVASCRIPT</h4>
+            <p>Juego Breakout</p>
+          </div>
         </div>
-        <div class="fila">
-            <div class="proyecto">
-                <a href="https://jojourbina.github.io/Role-game/" target="_blank">
-                    <img src="img/proyecto4.png" alt="">
-                </a>
-                <div class="info">
-                    <h4>HTML + CSS + JAVASCRIPT</h4>
-                    <p>RPG - Dragon Repeller</p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <a href="https://instapicsum.netlify.app/" target="_blank">
-                    <img src="img/proyecto5.png" alt="">
-                </a>
-                <div class="info">
-                    <h4>React native + Expo</h4>
-                    <p>instapicsum(App-movil)</p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <a href="https://trivia-3.netlify.app/" target="_blank">
-                    <img src="img/proyecto6.png" alt="">
-                </a>
-                <div class="info">
-                    <h4>React + React-Router/Context + API + LocalStorage + Responsive</h4>
-                    <p>Trivia 3.0</p>
-                </div>
-            </div>
-           <!--  <div class="proyecto">
+      </div>
+      <div class="fila">
+        <div class="proyecto">
+          <a href="https://jojourbina.github.io/Role-game/" target="_blank">
+            <img src="img/proyecto4.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>HTML + CSS + JAVASCRIPT</h4>
+            <p>RPG - Dragon Repeller</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <a href="https://instapicsum.netlify.app/" target="_blank">
+            <img src="img/proyecto5.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>React native + Expo</h4>
+            <p>instapicsum(App-movil)</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <a href="https://trivia-3.netlify.app/" target="_blank">
+            <img src="img/proyecto6.png" alt="" />
+          </a>
+          <div class="info">
+            <h4>
+              React + React-Router/Context + API + LocalStorage + Responsive
+            </h4>
+            <p>Trivia 3.0</p>
+          </div>
+        </div>
+        <!--  <div class="proyecto">
                 <a href="https://siddharthagrid.netlify.app/" target="_blank">
                     <img src="img/proyecto6.png" alt="">
                 </a>
@@ -256,45 +420,79 @@
                     <p>SiddarthaGrid</p>
                 </div>
             </div> -->
-        </div>
-       
+      </div>
     </section>
 
     <!-- SECCTION C O N T A C T O -->
     <section class="contenedor-skills" id="contacto">
-        <h3 class="titulo-seccion" data-section="contacto" data-value="seccion">CONTACTAME</h3>
-        <div class="contenedor-form">
-            <form id="form">
-                <div class="fila mitad ">
-                    <input type="text" data-section="contacto" data-value="nombre" placeholder="Nombre Completo"
-                    class="input-mitad" id="from_name" name="from_name">
-                    <input type="text " data-section="contacto" data-value="correo" placeholder="Dirección de Email"
-                        class="input-mitad" id="email_id" name="email_id">
-                </div>
-                 <div class="fila">
-                    <textarea data-section="contacto" data-value="texto" name="message" cols="30" rows="10"
-                        placeholder="Tu Mensaje..." class="input-full" id="message"></textarea>
-                </div>
-                <button type="submit" class="btn-enviar" data-section="contacto" data-value="enviar" id="button">Enviar
-                    Mensaje</button>
-
-            </form>
-        </div>
+      <h3 class="titulo-seccion" data-section="contacto" data-value="seccion">
+        CONTACTAME
+      </h3>
+      <div class="contenedor-form">
+        <form id="form">
+          <div class="fila mitad">
+            <input
+              type="text"
+              data-section="contacto"
+              data-value="nombre"
+              placeholder="Nombre Completo"
+              class="input-mitad"
+              id="from_name"
+              name="from_name"
+            />
+            <input
+              type="text "
+              data-section="contacto"
+              data-value="correo"
+              placeholder="Dirección de Email"
+              class="input-mitad"
+              id="email_id"
+              name="email_id"
+            />
+          </div>
+          <div class="fila">
+            <textarea
+              data-section="contacto"
+              data-value="texto"
+              name="message"
+              cols="30"
+              rows="10"
+              placeholder="Tu Mensaje..."
+              class="input-full"
+              id="message"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="btn-enviar"
+            data-section="contacto"
+            data-value="enviar"
+            id="button"
+          >
+            Enviar Mensaje
+          </button>
+        </form>
+      </div>
     </section>
 
     <!-- SECCION FOOTER -->
     <footer>
-        <p data-section="footer" data-value="derechos">Todos los derechos reservados - 2022</p>
-        <div class="redes">
-            <a href="https://www.linkedin.com/in/jorman-urbina-orfila/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/JojoUrbina"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.instagram.com/jormanurbina/"><i class="fa-brands fa-instagram-square"></i></a>
-        </div>
-
+      <p data-section="footer" data-value="derechos">
+        Todos los derechos reservados - 2022
+      </p>
+      <div class="redes">
+        <a href="https://www.linkedin.com/in/jorman-urbina-orfila/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/JojoUrbina"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/jormanurbina/"
+          ><i class="fa-brands fa-instagram-square"></i
+        ></a>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-
-</body>
-
+  </body>
 </html>

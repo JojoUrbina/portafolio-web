@@ -14,9 +14,11 @@ function seleccionar(link) {
   x.className = "";
 }
 //elementos de la descarga del CV
-const linkCV= document.querySelector("#CV")
-const LinkCVSpanish="https://drive.google.com/uc?export=download&id=1KVG3gg82_E9y3xQF32e6zU6Hf-HvPoPU"
-const LinkCVEnglish="https://drive.google.com/uc?export=download&id=1BlW-NlOi4Yf6ydSofGZkz4sYkHU7u9lR"
+const linkCV = document.querySelector("#CV");
+const LinkCVSpanish =
+  "https://drive.google.com/uc?export=download&id=1KVG3gg82_E9y3xQF32e6zU6Hf-HvPoPU";
+const LinkCVEnglish =
+  "https://drive.google.com/uc?export=download&id=1BlW-NlOi4Yf6ydSofGZkz4sYkHU7u9lR";
 
 //función que muestra el menu responsive
 function responsiveMenu() {
@@ -76,7 +78,7 @@ const textsToChange = document.querySelectorAll("[data-section]");
 flagsElement.addEventListener("click", (e) => {
   idioma = e.target.parentElement.dataset.language;
   changeLanguage(idioma);
-  changeLinkCV(idioma)
+  changeLinkCV(idioma);
 });
 
 async function changeLanguage(language) {
@@ -95,43 +97,42 @@ async function changeLanguage(language) {
 }
 
 //emailJS
-const btn = document.getElementById('button');
+const btn = document.getElementById("button");
 
-document.getElementById('form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
+document.getElementById("form").addEventListener("submit", function (event) {
+  event.preventDefault();
 
-   btn.value = 'Sending...';
+  btn.value = "Sending...";
 
-   const serviceID = 'default_service';
-   const templateID = 'template_6qjnkdj';
+  const serviceID = "default_service";
+  const templateID = "template_6qjnkdj";
 
-   emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      btn.value = 'Send Email';
-      alert('Sent!');
-    }, (err) => {
-      btn.value = 'Send Email';
+  emailjs.sendForm(serviceID, templateID, this).then(
+    () => {
+      btn.value = "Send Email";
+      alert("Sent!");
+    },
+    (err) => {
+      btn.value = "Send Email";
       alert(JSON.stringify(err));
-    });
+    }
+  );
 });
-//Efecto del titulo 
-let titulo=document.title;
-window.addEventListener("blur",()=>{
-    document.title="Hey a donde vas!! :("
-})
-window.addEventListener("focus",()=>{
-    document.title=titulo
-})
+//Efecto del titulo
+let titulo = document.title;
+window.addEventListener("blur", () => {
+  document.title = "Hey a donde vas!! :(";
+});
+window.addEventListener("focus", () => {
+  document.title = titulo;
+});
 
 function changeLinkCV(idioma) {
-  if (idioma=="es") {
-    linkCV.href=LinkCVSpanish
-    console.log(LinkCVSpanish)
-  }else if(idioma=="en") {
-    linkCV.href=LinkCVEnglish
-    console.log(LinkCVEnglish)
+  if (idioma == "es") {
+    linkCV.href = LinkCVSpanish;
+    console.log(LinkCVSpanish);
+  } else if (idioma == "en") {
+    linkCV.href = LinkCVEnglish;
+    console.log(LinkCVEnglish);
   }
 }
-
-
