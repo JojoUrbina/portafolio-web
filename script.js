@@ -1,3 +1,17 @@
+
+/* document.querySelector("#proyecto1").addEventListener("mouseover", () => {
+  document.querySelector("#proyecto1").src ="img/proyecto11.png"
+
+
+});
+
+document.querySelector("#proyecto1").addEventListener("mouseout", () => {
+  document.querySelector("#proyecto1").src ="img/proyecto1.gif"
+
+}); */
+
+
+
 //Función que me aplica el estilo a la opciòn seleccionada y quita la previamente seleccionada
 function seleccionar(link) {
   var opciones = document.querySelectorAll("#links  a");
