@@ -16,7 +16,7 @@ function seleccionar(link) {
 //elementos de la descarga del CV
 const linkCV = document.querySelector("#CV");
 const LinkCVSpanish =
-  "https://drive.google.com/uc?export=download&id=1TgYq4GSmvfYxm5O4Sq5Z3toFYRKEKO8Z";
+  "https://drive.google.com/uc?export=download&id=1SzlOUkARxCx1lxlLFE3pdTtifDiKncGX";
 const LinkCVEnglish =
   "https://drive.google.com/uc?export=download&id=1uXAgeZmPassYxqgj5sKLivwoPu9d3s1q";
 

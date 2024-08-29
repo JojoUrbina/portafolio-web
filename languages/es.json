@@ -1,61 +1,60 @@
 {
   "secciones": {
     "inicio": "INICIO",
-    "sobremi": "SOBRE MI",
+    "sobremi": "SOBRE MÍ",
     "habilidades": "HABILIDADES",
     "portafolio": "PORTAFOLIO",
     "contacto": "CONTACTO"
   },
   "presentacion": {
-    "bienvenida": "BIENVENIDOS",
+    "bienvenida": "Bienvenidos",
     "perfil": "Soy <span>Jorman Urbina</span>, Desarrollador Front-end",
-    "descripcion": "Me gusta crear servicios web sólidos, interactivos y escalables orientados a dar experiencias interesantes al usuario.",
+    "descripcion": "Me gusta crear productos frontend sólidos, interactivos y escalables orientados a ofrecer experiencias interesantes al usuario.",
     "portafolio": "Ir a Portafolio"
   },
-
   "sobremi": {
     "rol": "Desarrollador Front-end",
-    "saludo": "Hola, Soy <span>Jorman Urbina</span>",
-    "descripcion": "Apasionado por la creación y desarrollo de aplicaciones web, con solidos conocimientos de html, css, javascript y react para ofrecer soluciones rápidas, resistentes optimizadas. <br><br>El dinamismo, rendimiento y la escalabilidad son prioridades en mi radar.",
-    "descargarcv": "Descargar CV"
+    "saludo": "Hola, soy <span>Jorman Urbina</span>",
+    "descripcion": "Apasionado por la creación y desarrollo de aplicaciones web, con sólidos conocimientos de HTML, CSS, JavaScript y React para ofrecer soluciones rápidas, resistentes y optimizadas. <br><br> El dinamismo, rendimiento y la escalabilidad son prioridades en mi radar.",
+    "descargarcv": "Descargar mi CV"
   },
   "habilidades": {
-    "seccion":"MIS HABILIDADES",
+    "seccion": "MIS HABILIDADES",
     "html": {
-      "descripcion": "Puedo construir una pagina web desde cero, utilizando etiquetas semanticas modernas, optimizar el SEO parala optimizacionde la visibilidad del producto"
+      "descripcion": "Puedo construir una página web desde cero utilizando etiquetas semánticas modernas y optimizar el SEO para aumentar la visibilidad del producto."
     },
     "css": {
-      "descripcion": "Para dar estilos con diseños modernos utilizo <span style=\"color: #7952B3;\"> Bootstrap </span> y  <span style=\"color:#06B6D4\">TailwindCss</span> ademas de organizar los estilos con <span style=\"color: #CC6699;\">Sass</span> dandole especial enfasis a que los productos sean responsive, escalable con metolodologias BEM para mejor lectura del codigo."
+      "descripcion": "Para aplicar estilos con diseños modernos utilizo <span style=\"color: #7952B3;\">Bootstrap</span> y <span style=\"color: #06B6D4;\">Tailwind CSS</span>, además de organizar los estilos con <span style=\"color: #CC6699;\">Sass</span>, dándole especial énfasis a que los productos sean responsivos, escalables y utilizando metodologías BEM para una mejor lectura del código."
     },
     "javascript": {
-      "descripcion": "Con un sólido dominio de JavaScript, lo uso para agregar Interactividad y dinamismo a mis aplicaciones enfocado a la creación de código limpio y escalable.",
-      "click": "↑ Has click ↑"
+      "descripcion": "Con un sólido dominio de JavaScript, lo uso para agregar interactividad y dinamismo a mis aplicaciones, enfocado en la creación de código limpio y escalable.",
+      "click": "↑ Haz clic ↑"
     },
-    "react":{
-      "descripcion":"Es la biblioteca que utilizo para crear interfaces reutilizables y modernas utilizando herramientas como vite y los hooks que ofrece react para mejorar el rendimiento y velocidad de mis aplicaciones web"
+    "react": {
+      "descripcion": "Es la biblioteca que utilizo para crear interfaces reutilizables y modernas utilizando herramientas como Vite y los hooks que ofrece React para mejorar el rendimiento y la velocidad de mis aplicaciones web."
+    },
+    "git&github": {
+      "descripcion": "Tengo experiencia en la creación y gestión de ramas, fusión de cambios, resolución de conflictos y un seguimiento efectivo del historial de cambios en el código. <br> Además, utilizo GitHub Pages para desplegar mis aplicaciones, lo que permite a los usuarios acceder y explorar mi trabajo de forma interactiva.",
+      "repositorio": "Ir al repositorio"
+    },
+    "webpack&npm": {
+      "descripcion": "Con NPM y Webpack me permito aprovechar al máximo el ecosistema de paquetes de JavaScript, gestionar y actualizar las dependencias de manera eficiente, además de compilar y optimizar el código fuente de mi aplicación.",
+      "configuracion": "Configuración",
+      "rendimiento": "Rendimiento"
+    }
   },
-  "git&github":{
-    "descripcion":" Tengo experiencia en la creación y gestión de ramas, fusión de cambios, resolución de conflictos y un seguimiento efectivo del historial de cambios en el código.<br> Además, utilizo GitHub Pages para desplegar mis aplicaciones, lo que permite a los usuarios acceder y explorar mi trabajo de forma interactiva.",
-    "repositorio":"Ir a repositorio"
+  "proyectos": {
+    "seccion": "MIS PROYECTOS"
   },
-  "webpack&npm":{
-    "descripcion":"Con Npm y Webpack me permito aprovechar al máximo el ecosistema de paquetes de JavaScript, gestionar y actualizar las dependencias de manera eficiente ademas de compilar y optimizar el código fuente de mi aplicación",
-    "configuracion":"Configuracion",
-    "rendimiento":"Rendimiento"}
-},
-"proyectos":{
-  "seccion":"MIS PROYECTOS"
-},
-"contacto":{
-  "seccion":"CONTACTAME",
-  "enviar":"Enviar mensaje",
-  "nombre":"Nombre Completo ",
-  "correo":"Dirección de Email",
-  "tema":"Tema...",
-  "texto":"Tu Mensaje..."
-},
-"footer":{
-  "derechos":"Todos los derechos reservados - 2022"
-}
-
+  "contacto": {
+    "seccion": "CONTÁCTAME",
+    "enviar": "Enviar mensaje",
+    "nombre": "Nombre completo",
+    "correo": "Dirección de email",
+    "tema": "Tema...",
+    "texto": "Tu mensaje..."
+  },
+  "footer": {
+    "derechos": "Todos los derechos reservados - 2022"
+  }
 }
