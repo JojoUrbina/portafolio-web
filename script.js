@@ -136,3 +136,4 @@ function changeLinkCV(idioma) {
     console.log(LinkCVEnglish);
   }
 }
+
